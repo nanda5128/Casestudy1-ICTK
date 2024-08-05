@@ -1,0 +1,7 @@
+//write a javascript prgm to find the most frequent item of an array
+let k=[1,1,4,6,7,3,8,2,1,1];
+count=1
+c2=count+1
+for (const i of k) {
+    console.log(c2);
+}

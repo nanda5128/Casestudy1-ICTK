@@ -1,0 +1,43 @@
+//looping statements
+//print number 1 to 10
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+    
+}
+//one elemment of an array
+let array=[1,2,3,4,5,6];
+let len=array.length
+for (let i= 0; i< array.len; i++) {
+    console.log(array[i]);
+    
+}
+//for in loop
+var obj={fname:'nisha',age:34,place:'tvm'}
+for (const i in obj) {
+    console.log(obj[i]);
+         }
+//for of loop
+for (const i of array) {
+    console.log(i);
+}
+//while loop
+let i=1;
+while (i<=10) {
+    console.log(i);
+i++;
+}
+//do while loop
+let r=1;
+do {
+   console.log(r); 
+r++;
+} while (r<10);
+//write a javascript fn to get an array and to read the first element of an array.check whether it is prime or not
+let a=[11,3,5,7,6,12,13,11];
+console.log(a[0],a[0]%2!=0)
+//write a javascript prgm to find the most frequent item of an array
+let k=[1,1,4,6,7,3,8,2,1,1];
+count=1
+for (const i of k) {
+    console.log(count=count+1);
+}
